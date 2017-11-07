@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tasty Recepies - Calendar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="resources/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/stylesheet.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+    
+<body>
+    <!-- Navbar -->
+    <div class="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="calendar.html">Calendar</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Recipes</a>
+            <div class="dropdown-content">
+                <a href="meatballs.html">Meatballs</a>
+                <a href="pancakes.html">Pancakes</a>
+            </div>
+        </li>
+    </ul>
+    </div>
+ 
+    <div class="page">
+        <!-- Text -->
+        <div class="container">
+        <h1>Tasty Recipes</h1>
+        <h2>Calendar</h2>
+        <p>Are you tired of always planning what to cook each day?<br/> We have a solution! Below is a monthly suggestion of a healthy and tasty month.</p>
+        </div>
+    
+        <!-- Calendar -->
+        <div class="calendar-container">
+            <div class="grid-calendar">
+                <div class="row calendar-week-header">
+                    <div class="col-xs-1 grid-cell"><div><div><span>Mon</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>Tue</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>Wed</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>Thu</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>Fri</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>Sat</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>Sun</span></div></div></div>
+                </div>
+            
+                <div class="row calendar-week">
+                    <div class="col-xs-1 grid-cell previous-month clear"><div><div><span>31</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>1</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><a href="meatballs.html">
+                        <img class="img-responsive" src="resources/images/meatball-square.jpg" title="Delicious Meatballs" alt="Delicious Meatballs"/></a></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>3</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><a href="">
+                        <img class="img-responsive" src="resources/images/soup-square.jpg" alt="Creamy Broccoli Soup" title="Creamy Broccoli Soup"/></a></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>5</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>6</span></div></div></div>
+                </div>
+            
+                <div class="row calendar-week">
+                    <div class="col-xs-1 grid-cell clear"><a href="">
+                        <img class="img-responsive" src="resources/images/asparagus-square.jpg" title="Steak with Asparagus" alt="Steak With Asparagus"></a></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>8</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>9</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>10</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>11</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><a href="">
+                        <img class="img-responsive" src="resources/images/pizza-square.jpg" title="Crispy Mushroom Pizza" alt="Crispy Mushroom Pizza"></a></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>13</span></div></div></div>
+                </div>
+            
+                <div class="row calendar-week">
+                    <div class="col-xs-1 grid-cell clear"><div><div><span>14</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><a href="pancakes.html">
+                        <img class="img-responsive" src="resources/images/pancake-square.jpg" title="Delicious Pancakes" alt="Delicious Pancakes"></a></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>16</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>17</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><a href="">
+                        <img class="img-responsive" src="resources/images/salad-1672505_640.jpg" title="Sweet Fig Salad" alt="Sweet Fig Salad"></a></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>19</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>20</span></div></div></div>
+                </div>
+            
+                <div class="row calendar-week">
+                    <div class="col-xs-1 grid-cell clear"><a href="">
+                        <img class="img-responsive" src="resources/images/noodles-square.jpg" title="Pasta Bolognese" alt="Pasta Bolognese"></a></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>22</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>23</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><a href="">
+                        <img class="img-responsive" src="resources/images/shrimp-715539_640.jpg" title="Asian Shrimp Wook" alt="Asian Shrimp Wook"></a></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>25</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>26</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>27</span></div></div></div>
+                </div>
+            
+                <div class="row calendar-week">
+                    <div class="col-xs-1 grid-cell clear"><div><div><span>28</span></div></div></div>
+                    <div class="col-xs-1 grid-cell"><a href="">
+                        <img class="img-responsive" src="resources/images/burger-2762371_640.jpg" title="Best of Burgers" alt="Best of Burgers"></a></div>
+                    <div class="col-xs-1 grid-cell"><div><div><span>30</span></div></div></div>
+                    <div class="col-xs-1 grid-cell next-month"><div><div><span>1</span></div></div></div>
+                    <div class="col-xs-1 grid-cell next-month"><div><div><span>2</span> </div></div></div>
+                    <div class="col-xs-1 grid-cell next-month"><div><div><span>3</span></div></div></div>
+                    <div class="col-xs-1 grid-cell next-month" id="last"><div><div><span>4</span></div></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
