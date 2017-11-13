@@ -3,7 +3,7 @@
 body {
     min-width: 320px;
     margin:0;
-    background-image: url("/resources/images/table-2879213_1280.jpg");
+    background-image: url('../images/table-2879213_1280.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
