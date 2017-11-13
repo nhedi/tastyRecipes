@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tasty Recipes - Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--<link rel="stylesheet" type="text/css" href="resources/reset.css"/>-->
+    <link rel="stylesheet" type="text/css" href="resources/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/css/login.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet"/>
+</head>
+    
+<body>
+    <!-- Navbar -->
+    <div class="nav">
+    <ul>
+        <li><a href="index2.html">Home</a></li>
+        <li><a href="calendar2.html">Calendar</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Recipes</a>
+            <div class="dropdown-content">
+                <a href="meatballs2.html">Meatballs</a>
+                <a href="pancakes2.html">Pancakes</a>
+            </div>
+        </li>
+        <li id="login"><a class="active" href="login.html">Log in</a></li>
+    </ul>
+    </div>
+
+    <div class="page">
+        <div class="container">
+        <h1>Tasty Recipes</h1>
+        <h2>Log in</h2>
+            <form action="/action_page.php">
+                <div class="imgcontainer">
+                    <img src="resources/images/user-1808597_640.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="logcontainer">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+                    <button type="submit">Login</button>
+                    <input type="checkbox" checked="checked"> Remember me
+                </div>
+
+                <div class="logcontainer" style="background-color:#f1f1f1">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+        
+
+
+</body>
+</html>
