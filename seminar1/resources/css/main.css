@@ -1,0 +1,163 @@
+@import url(reset.css);
+
+body {
+    min-width: 320px;
+    margin:0;
+    background-image: url("/resources/images/table-2879213_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: serif;
+}
+
+/*Navigation menu*/
+.nav ul {       
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.nav li {
+    float: none;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active), .dropdown:hover .dropbtn {
+    background-color: #F5F5F5;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #F5F5F5;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#login {
+    float: right;
+    background-color: #4CAF50;
+}
+.active {
+    background-color: #F5F5F5;
+}
+
+/*Link behaviour*/
+.link:link {
+    color: darkmagenta;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.link:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.link:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.link:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*Transparent box*/
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding-top: 0.5%;
+    padding-bottom: 2em;
+    margin-bottom: 5%;
+}
+
+/*Page layout*/
+.page {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.page h1 {
+    font-family: 'Berkshire Swash', cursive;
+    text-transform: uppercase;
+    color: firebrick;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+.page h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+.page p {
+    font-size: 1em;
+    /*padding-left: 0.5em;*/
+    padding-top: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+}
+.welcomepic {
+    display: block;
+    float: inherit;
+    width: 30%;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+/*
+CSS rules that are used for screens narrower than 480 pixels.
+*/
+@media only screen and (min-width: 480px) {
+    .nav li {
+        float: left;
+    }
+    .welcomepic {
+        display: inline-block;
+    }
+}
