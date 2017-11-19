@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cookbook version="46">
+    <recipe>
+        <title>Meatballs recipe</title>
+        
+        <text>Here's your go-to, foolproof, basic meatball recipe you'll never want to be without.<br/> Great for both everyday dinner as well as when gathering all your loved ones for a relaxed evening!</text>
+        
+        <ingredients>
+            <li>1 lb lean (at least 80%) ground beef</li>
+            <li>1/2 cup Progresso™ Italian-style bread crumbs</li>
+            <li>1/4 cup milk</li>
+            <li>1/2 teaspoon salt</li>
+            <li>1/2 teaspoon Worcestershire sauce</li>
+            <li>1/4 teaspoon pepper</li>
+            <li>1 small onion, finely chopped (1/4 cup)</li>
+            <li>1 egg</li>
+        </ingredients>
+        
+        <instructions>
+            <li>Heat oven to 400°F. Line 13x9-inch pan with foil; spray with cooking spray.</li>
+            <li>In large bowl, mix all ingredients. Shape mixture into 20 to 24 (1 1/2-inch) meatballs. Place 1 inch apart in pan.</li>
+            <li>Bake uncovered 18 to 22 minutes or until no longer pink in center.</li>
+        </instructions>
+    </recipe>
+
+</cookbook>
