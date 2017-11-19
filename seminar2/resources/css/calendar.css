@@ -1,0 +1,63 @@
+.calendar {
+    width: 100%;
+    margin: 0; 
+}
+
+.calendar .week {
+    -ms-box-orient: horizontal;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; 
+}
+
+.calendar .week .weekIndication {
+    width: 100%;
+    color: grey;
+    font-style: italic;
+    text-align: center;
+    display: none; 
+}
+
+.calendar .week .day {
+    /*width: 150px;
+    height: 150px;*/
+    width: 13%;
+    -webkit-box-flex: 0 1 auto;
+    -moz-box-flex: 0 1 auto;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    -moz-flex: 0 1 auto;
+    flex: 0 1 auto;
+    padding-top: 2px;
+    margin: 1px;
+    border: 1px solid #DDDDDE;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+}
+
+.calendar .week .notCalendarDay {
+    background-color: #e1e1e1;
+    color: darkgray;
+}
+
+.calendar .week .day p {
+    padding-left: 0;
+    text-align: center;
+    font-style: italic; }
+
+.calendar .week .day a img {
+    max-width: 100%;
+}
+
+.calendar .week .day a img:hover {
+    opacity: 0.5; 
+}
